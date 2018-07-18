@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mykeyboard="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fulllayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--mykeyboard:xml="@xml/amountinputkeyboard"-->
+    <bill.tcmces.com.MyKeyboard
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/gray_shape"
+        android:gravity="center"
+        android:hint="身份证号"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="#BABABA"
+        mykeyboard:xml="@xml/amountinputkeyboard" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#fff000"/>
+
+    <bill.tcmces.com.MyKeyboard
+        android:id="@+id/etChar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@drawable/gray_shape"
+        android:gravity="center"
+        android:hint="字母和标点符号键盘"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textColorHint="#BABABA"
+        mykeyboard:xml="@xml/amountinputkeyboard" />
+
+</LinearLayout>

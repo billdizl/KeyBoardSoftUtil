@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="3px"
+
+    android:keyWidth="24.2%p"
+    android:verticalGap="3px" >
+
+    <Row android:verticalGap="18px" >
+        <Key
+            android:codes="-3"
+            android:keyIcon="@drawable/ret"
+            android:keyWidth="100%p"
+            android:verticalGap="3px" />
+    </Row>
+   <Row android:keyHeight="50dp" >
+        <Key
+            android:codes="49"
+            android:keyLabel="1" />
+        <Key
+            android:codes="50"
+            android:keyLabel="2" />
+        <Key
+            android:codes="51"
+            android:keyLabel="3" />
+        <Key
+            android:codes="-20000"
+            android:keyEdgeFlags="right"
+            android:keyLabel="200,000" />
+    </Row>
+    <Row android:keyHeight="50dp" >
+        <Key
+            android:codes="52"
+            android:keyLabel="4" />
+        <Key
+            android:codes="53"
+            android:keyLabel="5" />
+        <Key
+            android:codes="54"
+            android:keyLabel="6" />
+        <Key
+            android:codes="-50000"
+            android:keyEdgeFlags="right"
+            android:keyLabel="5,000,000" />
+    </Row>
+   <Row android:keyHeight="50dp" >
+        <Key
+            android:codes="55"
+            android:keyLabel="7" />
+        <Key
+            android:codes="56"
+            android:keyLabel="8" />
+        <Key
+            android:codes="57"
+            android:keyLabel="9" />
+        <Key
+            android:codes="-10000"
+            android:keyEdgeFlags="right"
+            android:keyLabel="10,000,000" />
+    </Row>
+    <Row android:keyHeight="50dp" >
+        <Key
+            android:codes="46"
+            android:keyLabel="." />
+        <Key
+            android:codes="48"
+            android:keyLabel="0" />
+        <Key
+            android:codes="-110"
+            android:keyLabel="00" />
+        <Key
+            android:codes="-5"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"
+            android:keyIcon="@drawable/deletepng" />
+    </Row>
+
+</Keyboard>

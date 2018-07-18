@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.inputmethodservice.KeyboardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboard_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:keyBackground="@drawable/d"
+    android:keyTextColor="#A8AAAB"
+    android:keyTextSize="20sp"
+    android:labelTextSize="15sp"
+    android:padding="2.5dp" />
+
+<!-- android:keyBackground="@drawable/data" -->
